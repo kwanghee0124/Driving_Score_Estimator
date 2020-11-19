@@ -59,7 +59,7 @@
 
 Configuration and API Install code.
 
-    sudo source config.sh
+	# sudo source config.sh
 
 
 ## Estimator
