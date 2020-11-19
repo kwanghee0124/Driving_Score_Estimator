@@ -2,42 +2,27 @@
 
 ## Directory and File Structure
 
+```
 .
-
 ├─ README.md
-
 ├─ config.sh
-
 ├─ Estimator.sh
-
 ├─ InitData
-
 |   ├─ data
-
 |   └─ src
-
 ├─ RefineData
-
 |   ├─ data
-
 |   └─ src
-
 ├─ Overspeed
-
 |   ├─ data
-
 |   └─ src
-
 ├─ Groundtruth
-
 |	├─ data
-
 |	└─ src
-
 └─ Regression
     ├─ data
-
 	└─ src
+```
 
 ## Configuration and Install
 
