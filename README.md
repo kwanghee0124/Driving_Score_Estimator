@@ -2,22 +2,25 @@
 
 ## Directory and File Structure
 
-> Driving_Score_Esimator
->> InitData
->>> data
->>> src
->> RefineData
->>> data
->>> src
->> Overspeed
->>> data
->>> src
->> Groundtruth
->>> data
->>> src
->> Regression
->>> data
->>> src
+.
+├─ README.md
+├─ config.sh
+├─ Estimator.sh
+├─ InitData
+|   ├─ data
+|   └─ src
+├─ RefineData
+|   ├─ data
+|   └─ src
+├─ Overspeed
+|   ├─ data
+|   └─ src
+├─ Groundtruth
+|	├─ data
+|	└─ src
+└─ Regression
+    ├─ data
+    └─ src
 
 ## Configuration and Install
 
@@ -40,6 +43,5 @@ Configuration and API Install code.
 E-main - _kwanghee0124@dankook.ac.kr_
 
 **Sounghyoun Lee**
-E-mail - _leesh812@dankook.ac.kr_
-	   - _wwbabaww@gmail.com_
+E-mail - _leesh812@dankook.ac.kr_, _wwbabaww@gmail.com_
 
