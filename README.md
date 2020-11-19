@@ -23,7 +23,7 @@
 
 Configuration and API Install code.
 
-\' sudo source config.sh \'
+    sudo source config.sh
 
 
 ## Estimator
@@ -35,10 +35,11 @@ Configuration and API Install code.
 
 ## Contact
 **Dankook University**
+
 **Kwanghee Lee**
 E-main - _kwanghee0124@dankook.ac.kr_
 
 **Sounghyoun Lee**
 E-mail - _leesh812@dankook.ac.kr_
-       - _wwbabaww@gmail.com_
+	   - _wwbabaww@gmail.com_
 
