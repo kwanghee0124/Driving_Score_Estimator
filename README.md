@@ -17,11 +17,12 @@
 |   ├─ data
 |   └─ src
 ├─ Groundtruth
-|	├─ data
-|	└─ src
+|   ├─ data
+|   └─ src
 └─ Regression
     ├─ data
-	└─ src
+    └─ src
+
 ```
 
 ## Configuration and Install
