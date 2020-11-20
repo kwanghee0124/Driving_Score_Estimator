@@ -90,6 +90,8 @@ Configuration and API Install code.
 **Usage Help**
 	
 	# ./Estimator.sh -h
+or
+	# ./Estimator.sh -?
 
 **Program**
 

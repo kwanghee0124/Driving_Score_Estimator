@@ -3,7 +3,7 @@
 help() {
 	echo "Driving Score Estimator Help"
 	
-	echo -e "\n========Option========"
+	echo -e "\n======== Option ========"
 	
 	echo "-p | Program"
 	echo -e "\t[ID] InitData"
@@ -12,7 +12,8 @@ help() {
 	echo -e "\t\tOption: -n"
 	
 	echo -e "\t[O] Overspeed"
-	echo -e "\t\tOption: -n"
+
+	echo -e "\t[M] Merge"
 
 	echo -e "\t[G] Groundtruth"
 	echo -e "\t\tOption: -n, -g, [dsi](-w)"
@@ -22,6 +23,8 @@ help() {
 	
 	echo -e "\tex) -p ID\n"
 	
+	echo -e "====== Additional options by program ======\n"
+
 	echo "-n(Option) | Normalization"
 	echo -e "\tNormalization distance, Normalization count"
 	echo -e "\tex) -n 10000,15\n"
@@ -69,7 +72,12 @@ elif [ $prog == "RD" ]; then
 elif [ $prog == "O" ]; then
 	src_path=$main_path/Overspeed/src
 
-	
+	python3 $src_path/initial_data.py 
+
+elif [ $prog == "M" ]; then
+	src_path=$main_path/RefineData/src
+
+	python3 $src_path/refine_overspeed.py
 
 elif [ $prog == "G" ]; then
 	src_path=$main_path/Groundtruth/src
