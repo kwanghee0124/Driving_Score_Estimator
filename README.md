@@ -87,7 +87,7 @@ Configuration and API Install code.
 
 ## Estimator
 
-**Usage Help**
+### Usage Help
 	
 	# ./Estimator.sh -h
 
@@ -95,15 +95,50 @@ or
 
 	# ./Estimator.sh -?
 
-**Program**
+### Program
 
 	# ./Estimator.sh -p [Select]
 
-**Normalization**
+**Program mode list**
+
+**InitData Mode**  
+Ex)
+
+	# ./Estimator.sh -p ID
+
+**RefineData Mode**  
+Ex)
+
+	# ./Estimator.sh -p RD -n [Distance,Count]
+
+**Overspeed Mode**  
+Ex)
+
+	# ./Estimator.sh -p O
+
+**Merge Mode**  
+Ex)
+
+	# ./Estimator.sh -p M
+
+**Groundtruth Mode**  
+Ex)
+
+	# ./Estimator.sh -p G -n [Distance,Count] -g [Model] (dsi)-w [overspeed,accel,decel,stop,start]
+
+**Regression Mode**  
+Ex)
+
+	# ./Estimator.sh -p R -g [Model] -r [Model]
+
+
+**Additional options by program**  
+
+Normalization
 
 	# ./Estimator.sh -n [Distance,Conunt]
 
-**Groundtruth Model**
+Groundtruth Model
 
 	# ./Estimator.sh -g [Model]
 
@@ -112,7 +147,7 @@ The corresponding options are:
 
 	# ./Estimator.sh -g dsi -w [overspeed,accel,decel,stop,start]
 
-**Regression Model**
+Regression Model
 
 	# ./Estimator.sh -r [Model]
 
