@@ -42,18 +42,18 @@
 └─ Regression
     ├─ data
     |   ├─ rf_estimate.csv
-    |   └─ svm_estimate.csv
+    |	└─ svm_estimate.csv
     └─ src
 		├─ rf.py
-        └─ svm.py
+    	└─ svm.py
 ```
 |Directory|Explanation|
 |---------|-----------|
-|InitData| |
-|RefineData| |
-|Overspeed| |
-|Groundtruth| |
-|Regression| |
+|InitData| TripFiles Download and unzip |
+|RefineData| Classify the data using normalized values and create a refined refine_file.csv file |
+|Overspeed| Counts the number of overspeed by comparing the user's driving DB with the road information DB |
+|Groundtruth| Using clustering algorithms, we create groundtruth to be used in the driving score |
+|Regression| Groundtruth-based Driving Score Estimate is performed using regression algorithms |
 
 ## Configuration and Install
 
@@ -68,11 +68,9 @@ Configuration and API Install code.
 ## Contact
 **Dankook University**
 
-**Kwanghee Lee**
-
+**Kwanghee Lee**  
 E-main - _kwanghee0124@dankook.ac.kr_
 
-**Sounghyoun Lee**
-
+**Sounghyoun Lee**  
 E-mail - _leesh812@dankook.ac.kr_ _wwbabaww@gmail.com_
 
