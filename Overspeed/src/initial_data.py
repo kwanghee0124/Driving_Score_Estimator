@@ -22,7 +22,7 @@ for i in range(0, len(user)):
     trip=os.listdir(trip_dir)
     trip.sort() 
     for j in range(len(trip)):
-        py_dir='python3 overspeed.py 'refine_path+'/'+user[i]+'/'+trip[j]
+        py_dir='python3 overspeed.py '+refine_path+'/'+user[i]+'/'+trip[j]
         print('Trip - '+trip[j]+' start.')
         os.system(py_dir)
         print('Trip - '+trip[j]+' end.')
